@@ -36,3 +36,4 @@ public class Punkt {
     }
 
 }
+//tworzy 10 obiektów ze wspołrzędnymi od 0 do 999

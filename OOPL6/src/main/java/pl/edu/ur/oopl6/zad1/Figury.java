@@ -23,4 +23,27 @@ public class Figury {
         return 2*Math.PI*r;
     }
     
+    public static double PoleKwadratu(double a){
+        return Math.pow(a,2);
+    }
+    
+    public static double ObwodKwadratu(double a, double b){
+        return 4*a;
+    }
+    
+    public static double PoleProstokata(double a, double b){
+        return a*b;
+    }
+    
+    public static double ObwodProstokata(double a, double b){
+        return 2*a + 2*b;
+    }
+    
+    public static double PoleStozka(double r, double l){
+        return Math.PI*Math.pow(r,2) + Math.PI*r*l;
+    }
+    
+    public static double PoleWalca(double r, double l){
+        return 2*Math.PI*r*l;
+    }
 }
